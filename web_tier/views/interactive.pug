@@ -1,0 +1,11 @@
+extends layout
+
+block content 
+  form(id='file-catcher')
+    input(id='file-input' type='file' name='file' multiple)
+    input(type='submit' value= "Upload Image")
+    div(class='response-header')
+      h2='Responses'
+        div(id='for-spinner')
+  div(id='response-list')
+

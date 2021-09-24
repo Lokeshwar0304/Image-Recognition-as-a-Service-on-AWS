@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 Please upload an Image or Images in our application
+  form(method="POST" action='/' enctype="multipart/form-data")
+    input(type='file' name="file" multiple)
+    input(type='submit' value= "Upload Image")
+

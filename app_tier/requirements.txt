@@ -1,0 +1,4 @@
+python-dotenv
+boto3
+ec2-metadata
+sentry-sdk

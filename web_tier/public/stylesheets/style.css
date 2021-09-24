@@ -1,0 +1,53 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ 
+.container2 {
+  width:20%;
+  height:auto;
+  padding:1%;
+  float:left;
+ }
+ 
+h4{
+  margin:0;
+}
+
+.response-header{
+  width: 14%;
+}
+
+.left {
+  float:left;
+  width:45px;
+}
+.right {
+  float:left;
+  margin:0 0 0 5px;
+  width:215px;
+}
+
+#for-spinner{
+  float: right;
+}
+
+.loader {
+  border: 2px solid #f3f3f3; /* Light grey */
+  border-top: 2px solid #000000; /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+  float: left;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,13 @@
+extends layout 
+
+block content
+    each entry in output
+        div(class='container2')
+            div(class='left')
+                img(width='100%',src="data:image/png;base64, " + entry.data)
+            div(class='right')
+                h4=entry.originalName
+            div(class='right')
+                h4=entry.prediction
+        a(href='/')
+    
